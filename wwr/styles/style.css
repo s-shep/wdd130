@@ -1,10 +1,12 @@
-
-    #content {max-width: 1600px;
-        margin: 0 auto;}
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Nanum+Gothic&display=swap');
+   #content {max-width: 1600px;
+        margin: 0 auto;
+        font-size: 22px;}
 
      nav a {text-align: center;
         color:#3083dc;
-         text-decoration: none;}
+         text-decoration: none;
+        padding: 35px;}
 
         #hero-msg h1{text-align: center;} 
 
@@ -19,8 +21,15 @@
 
         body {
             background-color: white;
-            color: #3083dc 
+            color: #3083dc; 
+            font-family: 'Bitter', Times, serif;
+            margin: 0;
+            padding: 0;
         }
+        h2 {
+            margin: 0;
+        }
+
         header {
             background-color: #aeffd8;
             color: #3083dc
@@ -28,6 +37,9 @@
         .home-title{
             background-color: #aeffd8;
             color: #3083dc;
+            font-size: 2em;
+            font-family: "Nanum Gothic", Lato, sans-serif;
+            margin-top: 10px;
          }
 
         h4 {
@@ -43,38 +55,68 @@
             background-color: #aeffd8;
             color: #3083dc;
             text-decoration: none;
+            font-size: 18px;
+            padding: 15px 30px;
+            margin-top: 50px;
+            border-radius: 5px;
         }
 
         .join {
             background-color: #462255;
             color: #3083dc;
             text-decoration: none;
+            font-size: 18px;
+            padding: 15px 30px;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+        
+        main section img {
+            box-sizing: border-box;
         }
 
          .book:hover {
             background-color: #3083dc;
             color: black
          }
+         .card-img {
+            border: 10px solid #d9c2a3;}
+
+         .rivers-card {
+            margin: 200px 0;
+         }
+         .camping-card{
+         margin: 200px 0;}
+
+         .rapids-card {
+            margin: 200px 0;}
 
         .join:hover{ background-color: #3083dc;
             color: black
         }
 
          .msg { background-color: #462255;
-            color: #3083dc
+            color: #3083dc;
+            line-height: 1.5em;
+            padding: 35px;
         }
 
          footer{ background-color: #aeffd8;
-            color: #3083dc
+            color: #3083dc;
+            padding: 25px 50px;
+            margin-top: 200px;
         }
         .msg h2 {
             background-color: #462255;
-            color: #3083dc
+            color: #3083dc;
+            font-family: "Nanum Gothic", Lato, sans-serif
         }
 
         .msg p {
             background-color: #462255;
-             color: #3083dc
+             color: #3083dc;
+             font-size: .8em;
+             padding-bottom: 15px;
         }
 
         footer a {
@@ -88,10 +130,15 @@
             color: #3083dc
         }
 
-        .icon{width: 80px
+        .icon{width: 80px;
+            padding-top: 10px;
         }
 
         .logo{width: 80px
+        }
+
+        #logo_link{
+            padding-top: 5px;
         }
 
         footer p {
@@ -101,3 +148,5 @@
         footer p a:hover {
             text-decoration: underline;
         }
+        footer .social img {
+            padding-top: 15px;}
