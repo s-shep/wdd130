@@ -203,6 +203,76 @@ header {
          padding-bottom: 15px;
     }
 
+#title-river { 
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+ }
+
+#river-title { 
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+
+.river-narrow{
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+}
+
+.idaho-river{
+    align-self: center;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+.river-bright{
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto;
+    
+}
+
+.utah-river{
+    align-self: center;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.river-rocky{
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: auto;
+    
+}
+
+.arizona-river {
+    align-self: center;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+
+
+
 Footer { 
     background-color: #aeffd8;
         color: #3083dc;
