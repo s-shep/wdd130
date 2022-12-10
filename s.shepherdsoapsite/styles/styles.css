@@ -54,10 +54,21 @@
                 padding-top: 10px;
             }
 
+            h1, h2, h3, h4, h5, h6 {
+                font-family: Shalimar;}
+
+            p {
+                font-family: Jost;
+                padding: 15px;
+                color: #8E9DCC
+            }
+
             nav {
                 display: flex;
                 justify-content: space-around;
            }
+           img {
+            padding: 15px;}
            
            nav a {
                text-align: center;
